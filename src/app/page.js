@@ -77,9 +77,9 @@ export default function Home() {
   return (
     <>
       <Header title="LaptopClash" />
-      <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center p-6">
-        <div className="card bg-gray-800 shadow-xl w-full mx-auto p-6">
-          <h2 className="text-3xl text-center font-bold mb-4">
+      <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center px-4 sm:px-6 lg:px-8">
+        <div className="card bg-gray-800 shadow-xl w-full max-w-2xl mx-auto">
+          <h2 className="text-3xl text-center font-bold my-2">
             Bandingkan Laptop Favoritmu!
           </h2>
           <GetLaptopInfo
@@ -88,7 +88,7 @@ export default function Home() {
             onInputChange={handleInputChange}
           />
         </div>
-        <div className="mt-6 card bg-gray-700 shadow-xl w-full mx-auto p-6">
+        <div className="mt-6 card bg-gray-700 shadow-xl w-full max-w-2xl mx-auto p-6">
           <AIResults result={result} isLoading={isLoading} />
         </div>
       </div>

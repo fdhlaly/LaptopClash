@@ -6,9 +6,9 @@ const GetLaptopInfo = ({ onSubmit, form, onInputChange }) => {
           Pilih Laptop Kamu!
         </p>
 
-        <div className="w-full gap-4 p-4 flex flex-col">
-          <div className=" flex justify-center md:flex-row flex-col gap-4">
-            <div className="flex flex-col gap-4 mb-4 p-4 flex-1 shadow shadow-[#cccccc] rounded">
+        <div className="w-full gap-4 flex flex-col">
+          <div className="flex justify-center flex-col md:flex-row gap-4">
+            <div className="flex flex-col gap-4 mb-4 p-4 flex-1 w-full shadow shadow-[#cccccc] rounded">
               <label htmlFor="firstLaptop" className="text-xl">
                 Laptop Pertama
               </label>
